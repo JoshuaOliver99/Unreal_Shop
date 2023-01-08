@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch UnrealShop (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "UnrealShop Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShop (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "UnrealShop Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShop (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "UnrealShop Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShop (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "UnrealShop Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShop (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "UnrealShop Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShopEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "UnrealShopEditor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\UnrealShop.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShopEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "UnrealShopEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\UnrealShop.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UnrealShopEditor (Development)",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "UnrealShopEditor Win64 Development Build",
+			"args": [
+				"C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\UnrealShop.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\Joshua Simpson\\Documents\\GitHub\\UnrealShop\\UnrealShop\\UnrealShop.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Program Files\\Epic Games\\UE_5.1"
+		}
+	]
+}
